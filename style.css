@@ -169,7 +169,7 @@ i.fa-solid.fa-cart-shopping , i.fa-solid.fa-bars{
 .card-img:hover::before {
     width: 96%;
     height: 97%;
-    background-color: rgba(0, 0, 0, 0.37);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .rating .checked {
