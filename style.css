@@ -166,9 +166,9 @@ i.fa-solid.fa-cart-shopping , i.fa-solid.fa-bars{
     left: 0;
     border-radius: 5px;
 }
-.card-img:hover::before{
-    width: 100%;
-    height: 100%;
+.card-img:hover::before {
+    width: 96%;
+    height: 97%;
     background-color: rgba(0, 0, 0, 0.37);
 }
 
