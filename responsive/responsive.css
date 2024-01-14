@@ -1,0 +1,30 @@
+
+@media screen and (max-width:992px) {
+    .hero-details {
+        width: 65%;
+    }
+    .hero-details h2 {
+        font-size: 2.5rem
+    }
+    .hero-img {
+        text-align: right;
+    }
+    .hero-img img {
+        width: 90%;
+    }
+}
+@media screen and (max-width:768px) {
+    .hero .Flex {
+        flex-direction: column;
+    }
+    .hero-details {
+        width: 100%;
+    }
+    .hero-details p, .hero-details a {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    
+}
