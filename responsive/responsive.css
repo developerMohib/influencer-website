@@ -1,4 +1,9 @@
-
+@media screen and (min-width:992px){
+    label , input {
+        font-size: 1.5rem;
+        display: none;
+    }
+}
 @media screen and (max-width:992px) {
     .hero-details {
         width: 65%;
@@ -7,7 +12,7 @@
         font-size: 2.5rem
     }
     .hero-img {
-        text-align: right;
+        text-align: center;
     }
     .hero-img img {
         width: 90%;
@@ -17,14 +22,62 @@
     .hero .Flex {
         flex-direction: column;
     }
+    .header-main {
+        flex-direction: row-reverse;
+    }
     .hero-details {
         width: 100%;
     }
     .hero-details p, .hero-details a {
         font-size: 1.5rem;
     }
+    .logo-menu {
+        justify-content: space-around;
+        flex-direction: row-reverse;
+        margin-left: -5rem;
+    }
+    .menu ul {
+        display: none;
+        visibility: hidden;
+        position: absolute;
+        top: 75px;
+        left: 0;
+        background-color: black;
+        width: 100%;
+        padding-top: 2rem;
+        text-align: center;
+    }
+    .menu ul li .active {
+        color: cyan;
+        background: none;
+    }
+    .menu ul li a:hover{
+        color: cyan;
+    }
+    input#action {
+        visibility: hidden;
+    }
+    input#action:checked ~ ul {
+        display: block;
+        visibility: visible;
+    }
+    input#action:checked ~ solid.fa-bar::before{
+        content:"\f00d";
+
+    }
 }
 
 @media screen and (max-width:576px) {
-    
+    .header-main .logo h2 {
+        font-size: 1.2rem;
+    }
+    .logo-menu {
+        margin-left: 0;
+    }
+    .hero-details h2 {
+        font-size: 2rem;
+    }
+    .hero-details p{
+        font-size: 1rem;
+    }
 }

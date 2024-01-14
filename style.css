@@ -24,19 +24,19 @@ a{
     background: #E02C6D;
     padding: 10px 24px;
 }
+
 /* Start Style - Heading */
+
 header {
     padding: 1rem 0;
 }
 nav{
-    /* display: grid;
-    grid-template-rows: repeat(1, 1fr) ; */
     padding-top: 10px;
 }
-.header-main {
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
+.header-main::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 .header-main .logo h2{
     color: var(--primary-color);
@@ -46,19 +46,37 @@ nav{
 .menu ul{
     display: flex;
 }
-.menu ul li{}
+.menu ul li .active{
+    background-color: #6b6b6b80;
+    color: #fff;
+}
 .menu ul li a{
-    padding:0 1rem;
+    padding:10px 1rem;
     color: var(--primary-color);
     font-size: 1rem;
     font-weight: 600;
+    border-radius: 5px;
+    margin: 0 2px;
 }
-.cart-icon-1 {
-    margin-left: 1.5rem;
+.menu ul li a:hover{
+    background-color: #6b6b6b80;
+    color: #fff;
 }
-.cart-icon-2 {
-    display: none;
-    visibility: hidden;
+.logo-menu {
+    float: left;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart-icon {
+    float: right;
+    width: 5%;
+    line-height: 2.5rem;
+    text-align: center;
+}
+i.fa-solid.fa-cart-shopping , i.fa-solid.fa-bars{
+    font-size: 20px;
 }
 
 /* Hero Section */
