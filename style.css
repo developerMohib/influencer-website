@@ -3,6 +3,9 @@
     --secondary-color: #787885;
     --ternary-color: #18191F;
 }
+html{
+    scroll-behavior: smooth;
+}
 *{
     padding: 0;
     margin: 0;
@@ -169,4 +172,60 @@ i.fa-solid.fa-cart-shopping , i.fa-solid.fa-bars{
     font-size: 0.9rem;;
     font-weight: 300;;
     letter-spacing: 0.252px;
+}
+.see-more-btn{
+    text-align: right;
+    margin: 2rem 0;
+}
+.see-more-btn a{
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 1rem;
+    font-weight: 700;
+}
+.see-more-btn a:hover{
+    color: rgb(236, 29, 105);
+}
+#signup{
+    margin: 5rem 0;
+}
+.blog h2{
+    font-size: 2rem;
+}
+.blog {
+    display: flex;
+    gap: 0 7rem;
+}
+.blog .hero-details {
+    width: 50%;
+}
+
+footer{
+    background: #0A0826;
+    padding: 70px 0;
+}
+.footer-text{
+    text-align: center;
+}
+
+.footer-text h2, p{
+    color:#ffffff;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.footer-text h2{
+    font-size: 1.5rem;
+}
+.footer-text p{
+    font-size: 14px;
+}
+
+.social-menu {}
+.social-menu ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.social-menu ul li{}
+.social-menu ul li a{
+    color: #ffffff;
 }
