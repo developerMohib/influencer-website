@@ -120,3 +120,16 @@
         margin: 2rem 0;
     }
 }
+
+@media screen and (max-width:576px){
+    .container {
+        padding: 0 2rem;
+    }
+    .sponsor-img {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #Products .title h2 {
+        font-size: 2rem;
+        margin: 2rem 0;
+    }
+}
