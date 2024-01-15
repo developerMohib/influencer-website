@@ -29,7 +29,7 @@
         width: 100%;
     }
     .hero-details p, .hero-details a {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .logo-menu {
         justify-content: space-around;
@@ -47,12 +47,17 @@
         padding-top: 2rem;
         text-align: center;
     }
+    .menu ul li a {
+        margin: 20px 2px;
+        display: block;
+    }
     .menu ul li .active {
         color: cyan;
         background: none;
     }
     .menu ul li a:hover{
         color: cyan;
+        background:none;
     }
     input#action {
         visibility: hidden;
@@ -65,14 +70,19 @@
         content:"\f00d";
 
     }
-
     .sponsor-img {
         grid-template-columns: repeat(4, 1fr);
         gap: 2rem;
         justify-items: center;
     }
+    .sponsor-img img {
+        height: 75%;
+    }
     .card-items {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .card-img img {
+        width: 100%;
     }
     .blog {
         flex-direction: column-reverse;
@@ -80,6 +90,9 @@
     .blog .hero-details {
         width: 100%;
         margin-bottom: 2rem;
+    }
+    .blog-img img {
+        width: 100%;
     }
 }
 

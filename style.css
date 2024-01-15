@@ -116,7 +116,7 @@ i.fa-solid.fa-cart-shopping , i.fa-solid.fa-bars{
     background: #fa0861;
 }
 .hero-img{
-    /* background: url(./images/Circle\ design.svg), lightgray -256.697px -123px / 220.317% 154.831% no-repeat; */
+    background: url(./images/circledesign.png), no-repeat;
 }
 .hero-img img{
     height: 100%;
